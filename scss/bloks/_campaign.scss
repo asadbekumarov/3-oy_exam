@@ -1,0 +1,456 @@
+.campaign__section__content {
+    margin-top: 120px;
+
+    .campaign__logo {
+        margin-top: 90px;
+        margin-bottom: 20px;
+
+        .d {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .logo {
+            margin-bottom: 71px;
+            padding-right: 43px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            border-right: 1px solid #D7D7DD;
+
+            h6 {
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+// respansive
+@media (max-width:1160px) {
+    .pkoto__section__content {
+        .photo__title {
+            max-width: 288px;
+        }
+    }
+
+    .cards__section {
+        .cards__section__content {
+            flex-wrap: wrap;
+            box-shadow: none;
+
+            .поиск {
+                padding: 32px 140px 47px 32px;
+                display: flex;
+                gap: 22px;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                // box-shadow: 0px 4px 20px 0px #00000026;
+
+                p {
+                    width: 100%;
+                }
+
+                h6 {
+                    width: 100%;
+                }
+            }
+
+            .конкретный {
+                padding: 32px 140px 47px 32px;
+                display: flex;
+                gap: 22px;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                // box-shadow: 0px 4px 20px 0px #00000026;
+
+                p {
+                    width: 100%;
+                }
+
+                h6 {
+                    width: 100%;
+                }
+            }
+
+            .Доставка {
+                padding: 32px 140px 47px 32px;
+                display: flex;
+                gap: 22px;
+                align-items: center;
+                border-radius: 10px;
+                // box-shadow: 0px 4px 20px 0px #00000026;
+
+                p {
+                    width: 100%;
+                }
+
+                h6 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .work__section__content {
+        .work__cards {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .mployees__card {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:960px) {
+    .hero__section__content {
+        flex-direction: column;
+        text-align: center;
+        max-width: 960px;
+
+        h1 {
+            font-size: 44px;
+            line-height: 55px;
+            width: 100%;
+        }
+
+        .line {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 73px;
+            flex-direction: column;
+            align-items: center;
+
+            h6 {
+                text-align: center;
+                padding: 0;
+            }
+
+            img {
+                display: flex;
+                width: 104px;
+            }
+        }
+
+        .img {
+            display: none;
+        }
+
+        .media__img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .photo__card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .deliver__card {
+        img {
+            display: none;
+        }
+
+        .line {
+            display: flex;
+        }
+    }
+}
+
+@media (max-width:854px) {
+    .photo__cards {
+        justify-content: center !important;
+        justify-content: flex-start;
+    }
+
+    .pkoto__section__content {
+        display: none;
+        background-image: none;
+    }
+
+    .green {
+        display: none;
+    }
+
+    .photo__title {
+        display: none;
+    }
+
+    .customer__section__content {
+        padding-right: 64px;
+        padding-left: 25px;
+
+        .logo {
+            .logos {
+                p {
+                    display: none;
+                }
+            }
+
+            .list {
+                display: none;
+            }
+
+            .list__cards {
+                height: 200px;
+                width: 100%;
+                overflow-y: auto;
+
+                .list__card {
+                    flex-wrap: wrap;
+                    overflow-x: auto;
+
+                    img {
+                        border: none;
+                    }
+
+                    .Название {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+                    }
+
+                    .Контакт {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+
+                        h5 {
+                            border: none;
+                        }
+                    }
+                }
+
+                .list__card2 {
+                    flex-wrap: wrap;
+
+                    img {
+                        border: none;
+                    }
+
+                    .Название {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+                    }
+
+                    .Контакт {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+
+                        h5 {
+                            border: none;
+                        }
+                    }
+                }
+
+                .list__card3 {
+                    flex-wrap: wrap;
+
+                    img {
+                        border: none;
+                    }
+
+                    .Название {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+                    }
+
+                    .Контакт {
+                        p {
+                            border: none;
+                        }
+
+                        h6 {
+                            border: none;
+                        }
+
+                        h5 {
+                            border: none;
+                        }
+                    }
+                }
+            }
+
+            .mobile {
+                display: flex;
+                width: 100% !important;
+
+                h6 {
+                    padding-bottom: 20px;
+                    padding: 10px 40px;
+                    background-color: #0b7572;
+                    color: #fff;
+                    width: 100%;
+                    border-right: 1px solid #00000033;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .hero__section__content {
+        h1 {
+            text-align: start;
+            font-size: 28px;
+            line-height: 35px;
+            width: 80%;
+        }
+
+        p {
+            text-align: start;
+            font-size: 15px;
+            line-height: 22.5px;
+            width: 100%;
+        }
+
+        .line {
+            display: flex;
+            align-items: start;
+        }
+    }
+
+    .deliver__card {
+        .line {
+            display: none;
+        }
+    }
+
+    .container {
+        button {
+            width: 100px;
+        }
+    }
+
+    .footer__list {
+        flex-wrap: wrap;
+    }
+
+    .cards__section__content {
+        box-shadow: 0px 4px 20px 0px #00000026 !important;
+        display: flex;
+        justify-content: space-between;
+
+        .поиск {
+            padding: 0 !important;
+            margin: 0;
+
+            img {
+                width: 68px;
+            }
+
+            .поиск__text {
+                h6 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+        }
+
+        .конкретный {
+            padding: 0 !important;
+            margin: 0;
+
+            img {
+                width: 68px;
+            }
+
+            .поиск__text {
+                h6 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .Доставка {
+            padding: 0 !important;
+            margin: 0;
+
+            img {
+                width: 68px;
+            }
+
+            .поиск__text {
+                h6 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .work__section__content {
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 35px;
+            width: 100%;
+        }
+
+        .work__card {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .customer__section__content {
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 35px;
+        }
+    }
+
+    .employees__section__content {
+        .mployees__card {
+            .employees__cards {
+                width: 100%;
+            }
+        }
+    }
+}
